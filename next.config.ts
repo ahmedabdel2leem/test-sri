@@ -21,7 +21,7 @@ const nextConfig: NextConfig = {
 
     default-src 'self';
 
-    script-src 'self';
+    script-src 'self' 'unsafe-inline';
 
     object-src 'none';
 
